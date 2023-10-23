@@ -1,0 +1,18 @@
+{% for block in section.blocks %}
+{%- if block.type == 'image' and block.settings.image_first -%}
+	 <div class="ced-image-small">
+          <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image_first.aspect_ratio }}%">
+            {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900,1000,1100,1200', image: block.settings.image_first -%}{%- endcapture -%}
+            {%- assign image_url = block.settings.image_first | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+            <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ block.settings.image_first.alt | escape }}">
+
+            <noscript>
+              <img src="{{ block.settings.image_first | img_url: '800x' }}" alt="{{ block.settings.image_first.alt | escape }}">
+            </noscript>
+          </div>
+        
+      </div>
+
+{%- endif -%}
+{% endfor %}

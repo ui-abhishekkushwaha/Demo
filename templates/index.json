@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/h2-rev-img-1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 62,
+            "text_color": "#ffffff",
+            "title": "Only premium care and happy pets.",
+            "content": "Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs. Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs.",
+            "content_position": "middle_left",
+            "button_background": "#ff8411",
+            "button_text_color": "#ffffff",
+            "button_text": "SHOP NOW",
+            "link": "#"
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/h2-rev-img-1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "large",
+        "carousel_effect": "fade",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "1650548525e116dc3f": {
+      "type": "collection-list",
+      "blocks": {
+        "16505485253387c741-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "16505485253387c741-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "16505485253387c741-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "16505485253387c741-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "16505485253387c741-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "16505485253387c741-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16505485253387c741-0",
+        "16505485253387c741-1",
+        "16505485253387c741-2",
+        "16505485253387c741-3",
+        "16505485253387c741-4",
+        "16505485253387c741-5"
+      ],
+      "settings": {
+        "title": "Our collections",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
+    "1651050175e503ab91": {
+      "type": "custom-illustration",
+      "settings": {
+        "title": "Check New Products",
+        "content": "<p>Lorem ipsum dolor sit amet, est vide voluptaria ex, nec in hinc solum sat. Neceessitatibus sonet soluta, vim eu esse accusamus<\/p>",
+        "link_title": "View all",
+        "link_url": "shopify:\/\/collections"
+      }
+    },
+    "1649856102b1573c71": {
+      "type": "video",
+      "settings": {
+        "sub_title": "ABOUT US",
+        "title": "Only premium care and happy pets.",
+        "content": "<p>Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs. Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs.<\/p>",
+        "button_link": "#",
+        "button_text": "READ MORE",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "image": "shopify:\/\/shop_images\/h2-rev-img-1.jpg"
+      }
+    },
+    "16503740817e920fb5": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "demo",
+        "title": "Featured collection",
+        "products_count": 16,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "1650006556eb5119fb": {
+      "type": "custom-mosaic",
+      "blocks": {
+        "60ba94a8-c253-43a7-a244-33cf0ba5b276": {
+          "type": "image",
+          "settings": {
+            "image_first": "shopify:\/\/shop_images\/h2-img-1-9.jpg",
+            "image_first_link": ""
+          }
+        },
+        "2ed2ff4f-8674-49e6-a1f7-a799318687ca": {
+          "type": "text",
+          "settings": {
+            "slide_heading": "Paw Asia Factory",
+            "slide_content": "<p>Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs , and what they mean the pet needs<\/p>",
+            "slider_button": "Read More",
+            "slider_button_link": "shopify:\/\/collections\/frontpage"
+          }
+        },
+        "e244cccd-7463-4a5e-828c-fde301846c59": {
+          "type": "text",
+          "settings": {
+            "slide_heading": "sadasd",
+            "slide_content": "<p>asdsad<\/p>",
+            "slider_button": "sdsadas",
+            "slider_button_link": "shopify:\/\/collections\/frontpage"
+          }
+        },
+        "86b6eaa1-732b-469b-8a51-924bdae3ca52": {
+          "type": "url",
+          "settings": {
+            "left_background": "shopify:\/\/shop_images\/h2-img-4_1.jpg",
+            "left_content_heading": "Paw Asia Factory",
+            "left_content_content": "<p>Specific dog behaviors, cat behaviors, etc., and what they mean the pet needs , and what they mean the pet needs<\/p>",
+            "left_content_button": "Read More",
+            "left_content_button_link": "shopify:\/\/collections\/frontpage"
+          }
+        },
+        "d098a16f-ac6d-4328-a9da-e867f2a03966": {
+          "type": "image",
+          "settings": {
+            "image_first": "shopify:\/\/shop_images\/h2-img-1-9.jpg",
+            "image_first_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "60ba94a8-c253-43a7-a244-33cf0ba5b276",
+        "2ed2ff4f-8674-49e6-a1f7-a799318687ca",
+        "e244cccd-7463-4a5e-828c-fde301846c59",
+        "86b6eaa1-732b-469b-8a51-924bdae3ca52",
+        "d098a16f-ac6d-4328-a9da-e867f2a03966"
+      ],
+      "settings": {
+        "image_large": "shopify:\/\/shop_images\/h2-img-2_1.jpg",
+        "image_large_link": "shopify:\/\/collections\/frontpage"
+      }
+    },
+    "16511194259a7c9d95": {
+      "type": "custom-testimonial",
+      "settings": {
+        "title": "Our Customer Say !",
+        "content": "<p>Lorem ipsum dolor sit amet, est vide voluptaria ex, nec in hinc solum sat. Neceessitatibus sonet soluta, vim eu esse accusamus.<\/p>",
+        "link_title": "",
+        "link_url": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1650548525e116dc3f",
+    "1651050175e503ab91",
+    "1649856102b1573c71",
+    "16503740817e920fb5",
+    "1650006556eb5119fb",
+    "16511194259a7c9d95"
+  ]
+}

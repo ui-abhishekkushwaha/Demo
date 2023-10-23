@@ -1,0 +1,45 @@
+{% if template == 'index' %}
+<div id="preloader">
+<div class="ced-image-outer"> 
+<img width="200" height="82" src="https://cdn.shopify.com/s/files/1/0636/8208/5081/files/preload.gif?v=1651045636" alt="dog">
+</div>
+</div>
+{%- endif -%}
+
+
+<style>
+
+  #preloader{
+    height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+  
+  #preloader .ced-image-outer {
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+}
+
+</style>
+
+<script>
+setTimeout(() => {
+  document.getElementById("preloader").style.display = "none";
+}, 1000)
+
+</script>
